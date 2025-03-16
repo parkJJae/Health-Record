@@ -12,6 +12,7 @@ public class UserResponseDTO {
     private Long userid;
     private String username;
     private String message;
+    private String token;
 
     public UserResponseDTO(UserEntity userentity){
         this.userid = userentity.getId();
